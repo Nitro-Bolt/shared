@@ -1,4 +1,3 @@
-// @ts-check
 import './types';
 
 class Color {

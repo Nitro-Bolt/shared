@@ -1,4 +1,3 @@
-// @ts-check
 import Cast from './cast';
 import log from './log';
 
