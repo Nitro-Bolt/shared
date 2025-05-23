@@ -1,0 +1,31 @@
+{
+  "name": "@nitrobolt/shared",
+  "version": "1.0.0",
+  "description": "Lets standardize our shared code :)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode development",
+    "prod": "webpack --mode production",
+    "start": "webpack serve --mode development"
+  },
+  "keywords": [],
+  "author": {
+    "email": "meow@miyo.lol",
+    "name": "Miyo Sho",
+    "url": "https://github.com/yuri-kiss/"
+  },
+  "license": "MPL-2.0",
+  "dependencies": {
+    "@nitrobolt/nanolog": "github:Nitro-Bolt/nanolog"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "glob": "^11.0.2",
+    "source-map-loader": "^5.0.0",
+    "ts-loader": "^9.5.2",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.1"
+  }
+}

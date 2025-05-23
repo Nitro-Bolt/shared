@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "moduleDetection": "auto",
+    "module": "commonjs",
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "useUnknownInCatchVariables": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "outDir": "./dist",
+  },
+  "include": [
+    "src/*",
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
