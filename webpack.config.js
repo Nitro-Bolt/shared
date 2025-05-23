@@ -1,15 +1,8 @@
 const path = require("path");
-const glob = require('glob');
-const entries = Object.create(null);
-
-glob.sync('./src/**.ts').forEach(file => {
-  const name = path.basename(file, '.ts');
-  entries[name] = './' + file;
-});
 
 // Base config that applies to either development or production mode.
 const config = {
-  entry: entries,
+  entry: "./src/index.ts",
   output: {
     library: "@nitrobolt/shared",
     libraryTarget: "commonjs2",
