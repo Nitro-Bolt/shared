@@ -34,4 +34,5 @@ const xmlEscape = function (unsafe: string[] | string) {
   });
 };
 
+module.exports = xmlEscape;
 export default xmlEscape;

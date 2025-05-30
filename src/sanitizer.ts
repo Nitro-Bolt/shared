@@ -97,4 +97,5 @@ class Sanitizer {
   }
 }
 
+module.exports = Sanitizer;
 export default Sanitizer;

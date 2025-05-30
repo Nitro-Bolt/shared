@@ -24,4 +24,5 @@ const uid = function (): string {
     return id.join('');
 };
 
+module.exports = uid;
 export default uid;

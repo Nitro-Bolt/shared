@@ -1,5 +1,6 @@
 import Color from './color';
 import Sanitizer from './sanitizer';
+import './types';
 
 /**
  * @fileoverview
@@ -374,4 +375,5 @@ class Cast {
   }
 }
 
+module.exports = Cast;
 export default Cast;

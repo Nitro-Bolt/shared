@@ -1,5 +1,3 @@
-import './types';
-
 class Color {
   public static get RGB_BLACK (): RGBObject {
     return {r: 0, g: 0, b: 0};
@@ -199,4 +197,5 @@ class Color {
   private constructor() {}
 }
 
+module.exports = Color;
 export default Color;

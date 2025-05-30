@@ -1,13 +1,13 @@
-import Cast from "./cast";
-import Color from "./color";
-import Sanitizer from "./sanitizer";
-import uid from "./uid";
-import xmlEscape from "./xmlEscape";
+import Cast = require('./cast');
+import Color = require('./color');
+import Sanitizer = require('./sanitizer');
+import uid = require('./uid');
+import xmlEscape = require('./xmlEscape');
 
-export {
+export default (module.exports = {
   Cast,
   Color,
   Sanitizer,
   uid,
   xmlEscape
-};
+});

@@ -2,7 +2,7 @@
   "name": "@nitrobolt/shared",
   "version": "1.0.0",
   "description": "Lets standardize our shared code :)",
-  "main": "index.js",
+  "main": "src/index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode development",
@@ -23,6 +23,7 @@
     "@types/node": "^22.15.21",
     "source-map-loader": "^5.0.0",
     "ts-loader": "^9.5.2",
+    "typescript": "^5.8.3",
     "webpack": "^5.99.9",
     "webpack-cli": "^6.0.1",
     "webpack-dev-server": "^5.2.1"
